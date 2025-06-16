@@ -1,6 +1,6 @@
 # Changelog
 
-## 20.5.10 (2025-06-15)
+## 20.5.10 (2025-06-16)
 
 *  [bitnami/mariadb] Add support for persistentVolumeClaimRetentionPolicy in StatefulSet in MariaDB ([#34506](https://github.com/bitnami/charts/pull/34506))
 
