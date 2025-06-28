@@ -473,11 +473,6 @@ spec:
     whenDeleted: {{ .Values.primary.persistentVolumeClaimRetentionPolicy.whenDeleted }}
     whenScaled: {{ .Values.primary.persistentVolumeClaimRetentionPolicy.whenScaled }}
   {{- end }}
-  {{- if .Values.secondary.persistentVolumeClaimRetentionPolicy }}
-  persistentVolumeClaimRetentionPolicy:
-    whenDeleted: {{ .Values.secondary.persistentVolumeClaimRetentionPolicy.whenDeleted }}
-    whenScaled: {{ .Values.secondary.persistentVolumeClaimRetentionPolicy.whenScaled }}
-  {{- end }}
   volumeClaimTemplates:
     - metadata:
         name: data
